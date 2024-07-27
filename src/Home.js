@@ -4,8 +4,12 @@ function Home() {
   return (
 <>
   <h1>Welcome to the Home Page!</h1>
-  <Link to="/course"> Course</Link>
-  <Link to="/batches"> Batches</Link>
+<div style={{display:"flex",flexDirection:"row",gap:"10px" }}>
+<Link to="/course"> Course</Link>
+<Link to="/batches"> Batches</Link>
+<Link to="/otp">otp</Link>
+
+</div>
 
 </>
   )
